@@ -1,2 +1,49 @@
-# my-first
-My first website on GitHub pages
+<html>
+<head>
+    <title>My personal profile</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="profile">
+
+        <!-- Image made into a link -->
+        <a href="https://yourlink.com" target="_blank">
+            <img src="myphotos.jpg" alt="My Profile Picture">
+        </a>
+
+        <h1>Flores Flora Fe</h1>
+        <h2>Grade 12 Student</h2>
+
+        <p>
+            Hello! My name is flora. Welcome to my personal profile
+            website. I am a student who enjoys learning new things,
+            meeting people,listening to music watching anime and other's movie, and improving my skills.
+        </p>
+
+        <div class="info">
+            <h3>About Me</h3>
+
+            <p><b>Age:</b> 19</p>
+            <p><b>School:</b> DCSA</p>
+            <p><b>Strand:</b> ABM</p>
+            <p><b>Hobbies:</b> Gaming, Music, Traveling, playing sports.</p>
+            <p><b>Dream:</b> To become a successful chief</p>
+        </div>
+
+        <div class="contact">
+            <h3>Contact Me</h3> 
+            <!-- Added mailto: so email links work properly -->
+            <a href="mailto:sflorafe@gmail.com">Email</a>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
